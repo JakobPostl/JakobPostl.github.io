@@ -91,7 +91,7 @@ const parseMetadata = metadata => {
       })
 
       window._pyodide_matplotlib_title = `${[m0.label, m1.label, m2.label].join(', ')} per ${d.description}`
-      window._pyodide_matplotlib_labelx = `${[m0.label, m1.label, m2.label].join(', ')} per ${d.description}`
+      window._pyodide_matplotlib_x = `Test`
 
       // https://pyodide.org/en/stable/usage/type-conversions.html
       this._pyodide.runPython(this.py)
