@@ -57,8 +57,8 @@ const parseMetadata = metadata => {
       // https://cdn.staticfile.org/pyodide/0.21.3/pyodide.js
       await getScriptPromisify('https://cdn.jsdelivr.net/pyodide/v0.21.3/full/pyodide.js')
       const pyodide = await loadPyodide()
-      await pyodide.loadPackage('matplotlib')
       await pyodide.loadPackage('pandas')
+      await pyodide.loadPackage('matplotlib')
 
       this._pyodide = pyodide
       this.render()
