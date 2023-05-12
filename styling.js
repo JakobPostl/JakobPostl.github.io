@@ -13,7 +13,7 @@ template.innerHTML = `
         }
     </style>
     <div id="root" style="width: 100%; height: 100%;">
-        <div class="title">Python code</div>
+        <div class="title">Python code2</div>
         <textarea id="code"></textarea>
     </div>
     <div>
