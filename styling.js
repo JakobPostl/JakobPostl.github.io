@@ -25,7 +25,9 @@ const PY_DEFAULT = `from matplotlib import pyplot as plt
 import numpy as np
 import io, base64
 import pandas
+
 from js import _pyodide_matplotlib_data, _pyodide_matplotlib_title
+from sklearn.model_selection import train_test_split
 
 SAC_DATA = _pyodide_matplotlib_data.to_py()
 SAC_TITLE = _pyodide_matplotlib_title
