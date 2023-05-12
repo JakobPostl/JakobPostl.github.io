@@ -107,5 +107,5 @@ const parseMetadata = metadata => {
     }
   }
 
-  customElements.define('pandas_main', Main)
+  customElements.define('com-sap-sample-pyodide-pandas', Main)
 })()
