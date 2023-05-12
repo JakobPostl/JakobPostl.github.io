@@ -55,7 +55,7 @@ const parseMetadata = metadata => {
     async bootstrap () {
       // https://cdnjs.cloudflare.com/ajax/libs/pyodide/0.21.3/pyodide.js
       // https://cdn.staticfile.org/pyodide/0.21.3/pyodide.js
-      await getScriptPromisify('https://cdnjs.cloudflare.com/ajax/libs/pyodide/0.21.3/pyodide.js')
+      //await getScriptPromisify('https://cdnjs.cloudflare.com/ajax/libs/pyodide/0.21.3/pyodide.js')
       const pyodide = await loadPyodide()
       await pyodide.loadPackage('pandas')
       await pyodide.loadPackage('matplotlib')
