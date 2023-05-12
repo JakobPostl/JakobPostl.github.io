@@ -24,7 +24,6 @@ template.innerHTML = `
 const PY_DEFAULT = `from matplotlib import pyplot as plt
 import numpy as np
 import io, base64
-import pandas
 from js import _pyodide_matplotlib_data, _pyodide_matplotlib_title
 
 SAC_DATA = _pyodide_matplotlib_data.to_py()
