@@ -59,6 +59,7 @@ const parseMetadata = metadata => {
       const pyodide = await loadPyodide()
       await pyodide.loadPackage('matplotlib')
       await pyodide.loadPackage('pandas')
+      await pyodide.loadPackage('sklearn')
 
       this._pyodide = pyodide
       this.render()
